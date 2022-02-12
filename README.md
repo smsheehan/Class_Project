@@ -26,7 +26,8 @@ This proposal suggests that we use the HUD nationwide PIT and HIC datasets for m
 2020 HIC dataframe:
 ![image](https://user-images.githubusercontent.com/90977689/152704941-6cf31b50-3949-420b-b676-72d0bfd4bd76.png)
 
-I am not aware of anyone to date using machine learning models on homelessness datasets.  The hypothesis for this project is that we will be able to correlate certain factors across these broad nation-wide data sets with homelessness outcomes.  These findings would then be the first step in helping to guide additional dialog and potentially new investments in our city. 
+Additional datasets that will be pulled into this analysis include HUD funding levels at the programmatic level accross the COCs and population data available from the US Census.  The hypothesis for this project is that we will be able to correlate certain factors across these broad nation-wide data sets with homelessness outcomes.  Successful homelessness outcomes for this project will be defined by cities with the lowest percent of unsheltered and/or unsheltered homeless as a percentage of the city's population.  These findings would then be the first step in helping to guide additional dialog and potentially new investments in our city of Indianapolis.  Currently the Mayor of Indianapolis has a proposal to spend 12.5 million dollars on a new low barrier shelter which would include additional transitional beds. Does our modeling provide evidence in support of this proposal?
+
 ## Machine learning Model
 
 ## Database
