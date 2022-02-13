@@ -18,7 +18,7 @@ We also see this trend in Indianapolis, especially in 2021.  Here in Indianapoli
 
 ![image](https://user-images.githubusercontent.com/90977689/152703473-3930823d-0c9a-4ebd-871a-85a0d1556076.png)
 
-This proposal will use the HUD nationwide PIT and HIC datasets for COCs in the United States combined with population and homelessness funding allocation data to evaluate if machine learning models can identify factors (investment in low barrier shelter beds, investment in housing first units, federal funding levels, etc) which lead to better outcomes (lower homelessness as a percentage of city population).
+This project will use the HUD nationwide PIT and HIC datasets for COCs in the United States combined with population and homelessness funding allocation data to evaluate if machine learning models can identify factors (investment in low barrier shelter beds, investment in housing first units, federal funding levels, etc) which lead to better outcomes (lower homelessness as a percentage of city population).
 
 2020 PIT dataframe:
 ![image](https://user-images.githubusercontent.com/90977689/152704842-65669730-8a37-4b01-9f6b-a75b2eec8e42.png)
