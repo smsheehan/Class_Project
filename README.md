@@ -5,8 +5,7 @@
 ## Machine learning Model
 
 ## Database
-![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/81537476/153539905-f2dddff2-6e16-4b66-bc6c-cbc367fad8a6.png)
-
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/81537476/153803287-f5eb139b-f7b0-408c-9d61-9b741af02605.png)
 
 ## Summary
 
