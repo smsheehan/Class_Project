@@ -41,3 +41,4 @@ The random forest machine learning technique will be used to develop algorithms 
 ## Comments
 
 ## Communication Protocols
+-As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
