@@ -33,7 +33,7 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 The random forest machine learning technique will be used to develop algorithms to classify homelessness as a function of shelter availability, homeless counts and homeless funding. 
 
 ## Database
-The extracted dataframes from the HUD data will be stored utilizing a SQlite database. Once data is cleaned of irrelevant columns and cleaned to eliminate non-populated data and revise any pieces of data that diverge from the expected value ranges, the tables will be merged based upon the CoC indices as our master key for all values. The tables we intend to read into the dataframe include: <br>
+The extracted dataframes from the HUD data will be stored utilizing a SQlite database. Once data is cleaned of irrelevant columns and cleaned to eliminate non-populated data and revise any pieces of data that diverge from the expected value ranges, the tables will be merged based upon the CoC indices as our master key for all values. Because the content of our database is expected to be manageable from a data size standpoint, all files will be saved to the repository, with the ability to read in the data from any project participant individual on their own machine, reducing the need to rely upon a centrally stored database. This will also serve to let each team member manipulate the data on their unique branches to ensure that all content is sercure, yet able to accomodate independent research without burdensome lockout/tag-out procedures to maintain data integrity. The tables we intend to read into the dataframe include: <br>
 - CityData
 - ShelterAvailability
 - HomelessCounts
