@@ -41,6 +41,7 @@ The extracted dataframes from the HUD data will be stored utilizing a SQlite dat
 
 ![Database-Schema](https://user-images.githubusercontent.com/81537476/153539905-f2dddff2-6e16-4b66-bc6c-cbc367fad8a6.png)
 
+If there is additional need to contextualize the data, we intend to incorporate [metropolitan statistical area data](https://www.census.gov/programs-surveys/metro-micro/about.html) that can assist in providing some demographic and socioeconomic context to the areas supported by the specific CoCs of interest in our analysis.
 
 ## Summary
 
