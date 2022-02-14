@@ -43,3 +43,4 @@ The random forest machine learning technique will be used to develop algorithms 
 ## Communication Protocols
 - As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
 - Meeting as a team outside of class hours will take place via Zoom.
+- We will be checking out Trello for potential project planning communication.
