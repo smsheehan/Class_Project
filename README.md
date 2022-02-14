@@ -30,6 +30,8 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 
 ## Machine learning Model
 
+The random forest machine learning technique will be used to develop algorithms to classify homelessness as a function of shelter availability, homeless counts and homeless funding. 
+
 ## Database
 ![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/81537476/153539905-f2dddff2-6e16-4b66-bc6c-cbc367fad8a6.png)
 
