@@ -39,7 +39,7 @@ The extracted dataframes from the HUD data will be stored utilizing a SQlite dat
 - HomelessCounts
 - HomelessFunding
 
-![Database-Schema](https://user-images.githubusercontent.com/81537476/153539905-f2dddff2-6e16-4b66-bc6c-cbc367fad8a6.png)
+![Database-Schema](https://user-images.githubusercontent.com/81537476/153803287-f5eb139b-f7b0-408c-9d61-9b741af02605.png)
 
 If there is additional need to contextualize the data, we intend to incorporate [metropolitan statistical area data](https://www.census.gov/programs-surveys/metro-micro/about.html) that can assist in providing some demographic and socioeconomic context to the areas supported by the specific CoCs of interest in our analysis.
 
