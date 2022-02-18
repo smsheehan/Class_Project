@@ -33,12 +33,21 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 The random forest machine learning technique will be used to develop algorithms to classify homelessness as a function of shelter availability, homeless counts and homeless funding. 
 
 ## Database
-![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/81537476/153539905-f2dddff2-6e16-4b66-bc6c-cbc367fad8a6.png)
+The extracted dataframes from the HUD data will be stored utilizing a SQlite database. Once data is cleaned of irrelevant columns and cleaned to eliminate non-populated data and revise any pieces of data that diverge from the expected value ranges, the tables will be merged based upon the CoC indices as our master key for all values. Because the content of our database is expected to be manageable from a data size standpoint, all files will be saved to the repository, with the ability to read in the data from any project participant individual on their own machine, reducing the need to rely upon a centrally stored database. This will also serve to let each team member manipulate the data on their unique branches to ensure that all content is sercure, yet able to accomodate independent research without burdensome lockout/tag-out procedures to maintain data integrity. The tables we intend to read into the dataframe include: <br>
+- CityData
+- ShelterAvailability
+- HomelessCounts
+- HomelessFunding
 
+![Database-Schema](https://user-images.githubusercontent.com/81537476/153803287-f5eb139b-f7b0-408c-9d61-9b741af02605.png)
+
+If there is additional need to contextualize the data, we intend to incorporate [metropolitan statistical area data](https://www.census.gov/programs-surveys/metro-micro/about.html) that can assist in providing some demographic and socioeconomic context to the areas supported by the specific CoCs of interest in our analysis.
 
 ## Summary
 
 ## Comments
 
 ## Communication Protocols
--As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
+- As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
+- Meeting as a team outside of class hours will take place via Zoom.
+- We will be checking out Trello for potential project planning communication.
