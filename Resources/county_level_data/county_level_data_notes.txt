@@ -1,0 +1,29 @@
+Wiki_county_fips: https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
+
+Source for FIPS/County/CoC crosswalk: https://github.com/windyseng/predicting_homelessness/blob/master/location_/full_county_list.csv
+It appears this was a 2019 file.
+
+County population tables: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html#par_textimage_739801612
+
+Unemployment values: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+(This site has other datasets as well if we want to look deeper)
+
+HUD CoC List 2021: https://www.hud.gov/sites/dfiles/CPD/documents/FY-2021_CoC-Names-Numbers_Final.pdf
+
+HUD CoC List 2020: https://files.hudexchange.info/resources/documents/FY-2020-Continuums-of-Care-Names-and-Numbers.pdf
+
+HUD CoC List 2019: https://files.hudexchange.info/resources/documents/fy-2019-continuums-of-care-names-and-numbers.pdf
+
+HUD CoC List 2018: https://files.hudexchange.info/resources/documents/fy-2018-continuums-of-care-names-and-numbers.pdf
+
+HUD CoC List 2017: https://files.hudexchange.info/resources/documents/fy-2017-continuums-of-care-names-and-numbers.pdf
+
+HUD CoC List 2016: https://files.hudexchange.info/resources/documents/fy-2016-continuums-of-care-names-and-numbers.pdf
+
+HUD CoC List 2015: https://files.hudexchange.info/resources/documents/fy-2015-continuums-of-care-names-and-numbers.pdf
+
+HUD CoC List 2014: No files from 2014 or before could be found.
+
+County-specific lat/Long: https://en.wikipedia.org/wiki/User:Michael_J/County_table
+
+State-specific lat/long: https://developers.google.com/public-data/docs/canonical/states_csv
