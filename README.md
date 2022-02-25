@@ -39,7 +39,7 @@ The extracted dataframes from the HUD data will be stored utilizing a SQlite dat
 - HomelessCounts
 - HomelessFunding
 
-![Database-Schema](https://user-images.githubusercontent.com/81537476/155008571-71c1f176-d7a7-4e06-bb8f-d953882201f7.png)
+![Database Diagram](https://user-images.githubusercontent.com/81537476/155592621-eff40326-3e82-48b1-9c91-09291d91e27f.png)
 
 
 
