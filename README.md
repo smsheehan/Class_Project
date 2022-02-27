@@ -32,6 +32,8 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 
 The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forrest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
 
+### Models based on data as a percentage of total CoC region population
+
 The first step was to connect the model to our SQL lite database to pull the data for all the years up through 2019:
 
 ![image](https://user-images.githubusercontent.com/90977689/155895236-dadb0e91-693a-48a8-9a55-32069ae25a55.png)
@@ -71,7 +73,10 @@ This suggests that perhaps calibrating our data to region population is not a me
 
 ![image](https://user-images.githubusercontent.com/90977689/155896065-b52fb132-c748-4d5d-b9fb-287f5a5185bd.png)
 
+Looking at the data of one of the features with the strongest level of significance (unemployment) we see that the trend is a bit iffy and probably even that is driven by a few major outliers.
+![image](https://user-images.githubusercontent.com/90977689/155899652-c9b8ba64-f376-4970-9baf-776824f4ee31.png)
 
+### Models based on data as a percentage of total homeless population
 
 
 
