@@ -73,10 +73,43 @@ This suggests that perhaps calibrating our data to region population is not a me
 
 ![image](https://user-images.githubusercontent.com/90977689/155896065-b52fb132-c748-4d5d-b9fb-287f5a5185bd.png)
 
-Looking at the data of one of the features with the strongest level of significance (unemployment) we see that the trend is a bit iffy and probably even that is driven by a few major outliers.
+Looking at the data of one of the features with the strongest level of significance (unemployment) we see that the trend is a bit iffy and probably even that is driven by a few major outliers.  The below visualization shows the quintiles of unsheltered as a percent of population where quintile 0.0 is the lowest percentage quintile and quintile 0.9 being the highest percentage quintile.
+
 ![image](https://user-images.githubusercontent.com/90977689/155899652-c9b8ba64-f376-4970-9baf-776824f4ee31.png)
 
-### Models based on data as a percentage of total homeless population
+### Models based on data as a percentage of total number of homeless
+
+The abover results based on total population caused a rething of how to calibrate the data.  Another potential avenue is to calibrate our numbers relative to the total number of homeless.  Using a similar approach as above, a random forest model was built:
+
+![image](https://user-images.githubusercontent.com/90977689/155900193-5f58f88d-2d7d-4867-8cc1-fa939d63b1df.png)
+
+transform using total number of homeless:
+
+![image](https://user-images.githubusercontent.com/90977689/155900238-8e821ccf-2e04-47c9-9205-b55f484619e4.png)
+
+Build and run the model as before:
+
+![image](https://user-images.githubusercontent.com/90977689/155900274-104c10a4-2b3c-4d0a-a44a-c54bbf110bef.png)
+
+Feature importances:
+
+![image](https://user-images.githubusercontent.com/90977689/155900334-800fe4b4-0ece-4a27-acda-6f651b28b53d.png)
+
+We see Total Beds as a percentage of the total number of homeless to be the strongest feature, which makes sense.  Note total beds wasn't included in the percent population model, since it is just the sum of the ES, TS, and SH bed columns.
+
+![image](https://user-images.githubusercontent.com/90977689/155900414-04d6f2ab-7c13-4ca6-b1a0-7c2a4996bae8.png)
+
+Running a regression model in R shows us that more of the features now achieve significance:
+
+![image](https://user-images.githubusercontent.com/90977689/155900459-5c951bef-773f-4cb1-9013-b286431d9731.png)
+
+However, applying this approach to our NN model does not really improve the accuracy of our model:
+
+![image](https://user-images.githubusercontent.com/90977689/155900530-2958a065-2e92-4157-a87f-8814ecd0ff89.png)
+
+Clearly this speaks to the noise within the data set.  PIT counts are not homogeneous in the methodology used across CoCs and are counting individuals usually on a single night (sometimes two nights).  Next steps to getting to models which can be used prospectively will involve further evaluation and processing of the data to determine a path forward.
+
+
 
 
 
