@@ -30,7 +30,32 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 
 ## Machine learning Model
 
-The random forest machine learning technique will be used to develop algorithms to classify homelessness as a function of shelter availability, homeless counts and homeless funding. 
+The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forrest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
+
+The first step was to connect the model to our SQL lite database to pull the data for all the years up through 2019:
+
+![image](https://user-images.githubusercontent.com/90977689/155895236-dadb0e91-693a-48a8-9a55-32069ae25a55.png)
+
+After dropping some unwanted columns, the data needed to be transformed into percent of population.  Exemplar code is shown below:
+
+![image](https://user-images.githubusercontent.com/90977689/155895318-fb684a21-df6f-4b6e-b03d-f23191d7eb3c.png)
+
+After dropping the original columns, the data frame was ready for initial exploration:
+
+![image](https://user-images.githubusercontent.com/90977689/155895403-4d32a11e-77e7-49a4-b392-7f95b0b9bbda.png)
+
+Using the Random Forrest Regressor from sklearn, "Unsheltered_perc_pop" was selected as the target.  The train, test, split data was not scaled for this model.  Results are shown below:
+
+![image](https://user-images.githubusercontent.com/90977689/155895511-ed9567a6-78fd-4de5-9da8-9857f73117ff.png)
+
+![image](https://user-images.githubusercontent.com/90977689/155895543-1e239004-27fc-4019-bfbf-e811a8bec830.png)
+
+![image](https://user-images.githubusercontent.com/90977689/155895570-d6d85652-9f59-4b60-bd03-40d3a01d932f.png)
+
+This exercise was also performed for the data on individual years with some feature importances changing from year to year.  These notebook files are available in the ML folder.  The next question is whether this data is good enough to be used in predictive fashion. A neural network model was build using tensor flow and evidently the data is not strong enough to create a useful model of this type:
+
+
+
 
 ## Database
 The extracted dataframes from the HUD data will be stored utilizing a SQlite database. Once data is cleaned of irrelevant columns and cleaned to eliminate non-populated data and revise any pieces of data that diverge from the expected value ranges, the tables will be merged based upon the CoC indices as our master key for all values. Because the content of our database is expected to be manageable from a data size standpoint, all files will be saved to the repository, with the ability to read in the data from any project participant individual on their own machine, reducing the need to rely upon a centrally stored database. This will also serve to let each team member manipulate the data on their unique branches to ensure that all content is sercure, yet able to accomodate independent research without burdensome lockout/tag-out procedures to maintain data integrity. The tables we intend to read into the dataframe include: <br>
