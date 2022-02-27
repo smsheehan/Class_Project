@@ -52,7 +52,27 @@ Using the Random Forrest Regressor from sklearn, "Unsheltered_perc_pop" was sele
 
 ![image](https://user-images.githubusercontent.com/90977689/155895570-d6d85652-9f59-4b60-bd03-40d3a01d932f.png)
 
-This exercise was also performed for the data on individual years with some feature importances changing from year to year.  These notebook files are available in the ML folder.  The next question is whether this data is good enough to be used in predictive fashion. A neural network model was build using tensor flow and evidently the data is not strong enough to create a useful model of this type:
+This exercise was also performed for the data on individual years with some feature importances changing from year to year.  These notebook files are available in the ML folder.  The next question is whether this data is good enough to be used in predictive fashion. A neural network model was build using tensor flow and evidently the data is not strong enough to create a useful model of this type.  Preprocessing for this model included breaking down the "Unsheltered_perc_pop" category into quantiles using the following code:
+
+q = df_AllYears['Unsheltered_perc_pop'].quantile(np.arange(10) / 10)
+df_AllYears['UnshelteredPercentQuantile'] = df_AllYears['Unsheltered_perc_pop'].apply(lambda x : q.index[np.searchsorted(q, x, side='right')-1])
+
+The original "Unsheltered_perc_pop" column was dropped and the NN  model was run with the quantile being the target.  The feature data was scaled using X-scaler:
+
+![image](https://user-images.githubusercontent.com/90977689/155895876-f845cb5d-e310-4183-baa3-3936103503ed.png)
+
+![image](https://user-images.githubusercontent.com/90977689/155895896-8bc0a1e7-e3ec-419a-a56a-c9a9fdb795e9.png)
+
+Unfortunately, this resulted in a low accuracy model:
+
+![image](https://user-images.githubusercontent.com/90977689/155895932-82f8554a-30ff-43d3-9e3c-909f6eb33fee.png)
+
+This suggests that perhaps calibrating our data to region population is not a meaningful approach since there may be many other factors that drive percent outcomes of population (for example average temperature or local policing policies).  Before trying a different calibration method, this data was evaluated using a regression model using R studio:
+
+![image](https://user-images.githubusercontent.com/90977689/155896065-b52fb132-c748-4d5d-b9fb-287f5a5185bd.png)
+
+
+
 
 
 
