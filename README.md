@@ -30,7 +30,7 @@ Additional datasets that will be pulled into this analysis include HUD funding l
 
 ## Machine learning Model
 
-The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forrest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
+The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
 
 ### Models based on data as a percentage of total CoC region population
 
@@ -46,7 +46,7 @@ After dropping the original columns, the data frame was ready for initial explor
 
 ![image](https://user-images.githubusercontent.com/90977689/155895403-4d32a11e-77e7-49a4-b392-7f95b0b9bbda.png)
 
-Using the Random Forrest Regressor from sklearn, "Unsheltered_perc_pop" was selected as the target.  The train, test, split data was not scaled for this model.  Results are shown below:
+Using the Random Forest Regressor from sklearn, "Unsheltered_perc_pop" was selected as the target.  The train, test, split data was not scaled for this model.  Results are shown below:
 
 ![image](https://user-images.githubusercontent.com/90977689/155895511-ed9567a6-78fd-4de5-9da8-9857f73117ff.png)
 
