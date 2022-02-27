@@ -107,7 +107,10 @@ However, applying this approach to our NN model does not really improve the accu
 
 ![image](https://user-images.githubusercontent.com/90977689/155900530-2958a065-2e92-4157-a87f-8814ecd0ff89.png)
 
-Clearly this speaks to the noise within the data set.  PIT counts are not homogeneous in the methodology used across CoCs and are counting individuals usually on a single night (sometimes two nights).  Next steps to getting to models which can be used prospectively will involve further evaluation and processing of the data to determine a path forward.
+Clearly this speaks to the noise within the data set.  PIT counts are not homogeneous in the methodology used across CoCs and are counting individuals usually on a single night (sometimes two nights).  Next steps to getting to models which can be used prospectively will involve further evaluation and processing of the data to determine a path forward.  This may be a case where some of the older data in the set is less relevant (older methodologies) than more recent data and as a result is adding noise to the set.  Additionally it may be that rural CoC data may be dramatically distinct from Urban CoCs so we may have to break the data down further to improve our predictivity.  Some high level data looking at trends in total homeless and total unsheltered across CoC category which highlights some differences between the regional CoC types:
+
+![image](https://user-images.githubusercontent.com/90977689/155900789-f44a31e1-c1df-4e8f-85cc-678b6bd4589b.png)
+
 
 
 
