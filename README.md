@@ -142,6 +142,7 @@ If there is additional need to contextualize the data, we intend to incorporate 
 - Meeting as a team outside of class hours will take place via Zoom.
 - We will be checking out Trello for potential project planning communication.
 - Use PowerPoint to communicate a sketch of final presentation.
+- Implementing Smartsheet to help plan tasks & responsibilities and to plan ahead for deadlines.
 
 ## Link to Tableau Dashboard
 [link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
