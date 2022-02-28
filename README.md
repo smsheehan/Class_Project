@@ -147,5 +147,5 @@ If there is additional need to contextualize the data, we intend to incorporate 
 ## Link to Tableau Dashboard
 * The tools we used to create our dashboard was searching the web to find releated datasets to upload to Tableau.   ONce uploaded in Tableau Public, various bar graphs and maps were created to illustrate the overall homeless population and funding received to shelter those individuals.  
 * One of the many benefits of using tableau public is the program allows you to create interative data visualizations. 
-*   
+  
 [link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
