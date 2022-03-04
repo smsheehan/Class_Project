@@ -144,6 +144,9 @@ If there is additional need to contextualize the data, we intend to incorporate 
 - Use PowerPoint to communicate a sketch of final presentation.
 - Implementing Smartsheet to help plan tasks & responsibilities and to plan ahead for deadlines.
 
+## Link to Google Slides Presentation
+- [Draft Version of Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
+
 ## Link to Tableau Dashboard
 * The tools we used to create our dashboard was searching the web to find related datasets to upload to Tableau.   Once uploaded in Tableau Public, various bar graphs and maps were created to illustrate the overall homeless population and funding received to shelter those individuals.  
 * One of the many benefits of using Tableau Public is the program allows you to create interative data visualizations. 
