@@ -1,4 +1,4 @@
-# Class_Project: Exploring factors that lead to improved homelessness outcomes
+# Class_Project: Exploring factors that lead to improved unsheltered homelessness outcomes
 
 ## Presentation
 ![image](https://user-images.githubusercontent.com/90977689/152702817-a3d32ef1-dd51-44df-b740-ed84e744625b.png)
