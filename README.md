@@ -33,7 +33,7 @@ The hypothesis for this project is that we will be able to correlate certain fac
 ## Machine learning Model
 
 The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
-
+### Initial Modeling Attempts:
 ### Models based on data as a percentage of total CoC region population
 
 The first step was to connect the model to our SQL lite database to pull the data for all the years up through 2019:
@@ -112,6 +112,26 @@ However, applying this approach to our NN model does not really improve the accu
 Clearly this speaks to the noise within the data set.  PIT counts are not homogeneous in the methodology used across CoCs and are counting individuals usually on a single night (sometimes two nights).  Next steps to getting to models which can be used prospectively will involve further evaluation and processing of the data to determine a path forward.  This may be a case where some of the older data in the set is less relevant (older methodologies) than more recent data and as a result is adding noise to the set. On the to do list is to use select years (2015-2018) as the training set and year 2019 as the test set. Additionally it may be that rural CoC data may be dramatically distinct from Urban CoCs so we may have to break the data down further to improve our predictivity.  Some high level data looking at trends in total homeless and total unsheltered across CoC category which highlights some differences between the regional CoC types:
 
 ![image](https://user-images.githubusercontent.com/90977689/155900789-f44a31e1-c1df-4e8f-85cc-678b6bd4589b.png)
+
+### Final ML Solutions:
+![image](https://user-images.githubusercontent.com/90977689/156936700-78638593-a1ee-448a-89b6-c8450d71f931.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936711-161f07c9-c1fe-4fb5-9178-cdbca35494d0.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936825-063ae732-564b-48eb-8613-c6976264448a.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936840-a202786c-1df9-4424-9b56-f15b91a12697.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936861-5da2016d-29b2-4c6b-9015-033bb5ae6d8c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936882-3556c956-434e-4011-b8e0-223d71d3086c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936963-f7cd5112-2112-4676-b8d5-1790780e2805.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936998-d3a76795-a0d6-4b78-8640-f4c42ead994c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156937055-9cf4020e-9565-43fd-8251-8b2097a1d9ec.png)
+
 
 
 
