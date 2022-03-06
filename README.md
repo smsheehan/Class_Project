@@ -137,12 +137,6 @@ If there is additional need to contextualize the data, we intend to incorporate 
 
 ## Comments
 
-## Communication Protocols
-- As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
-- Meeting as a team outside of class hours will take place via Zoom.
-- We will be checking out Trello for potential project planning communication.
-- Use PowerPoint to communicate a sketch of final presentation.
-- Implementing Smartsheet to help plan tasks & responsibilities and to plan ahead for deadlines.
 
 ## Link to Google Slides Presentation
 - [Draft Version of Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
