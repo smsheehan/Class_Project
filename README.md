@@ -132,6 +132,7 @@ Clearly this speaks to the noise within the data set.  PIT counts are not homoge
 
 ![image](https://user-images.githubusercontent.com/90977689/156937055-9cf4020e-9565-43fd-8251-8b2097a1d9ec.png)
 
+![image](https://user-images.githubusercontent.com/90977689/156937957-8d88fd69-2db6-4180-a3d2-aaf2e9055cb9.png)
 
 
 
