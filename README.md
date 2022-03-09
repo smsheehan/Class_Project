@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Class_Project: Exploring factors that lead to improved unsheltered homelessness outcomes
 
 ## Presentation
@@ -169,29 +167,9 @@ If there is additional need to contextualize the data, we intend to incorporate 
 
 
 ## Link to Google Slides Presentation
-- [Draft Version of Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
+- [Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
 
 ## Link to Tableau Dashboard
 * The tools we used to create our dashboard was searching the web to find related datasets to upload to Tableau.   Once uploaded in Tableau Public, various bar graphs and maps were created to illustrate the overall homeless population and funding received to shelter those individuals.  
 * One of the many benefits of using Tableau Public is the program allows you to create interative data visualizations. 
-  
-=======
-# Class_Project
-
-![image](https://user-images.githubusercontent.com/30275459/154823456-c6d3632e-19a4-4391-a5d2-84fdc1519de3.png)
-
-# Powerpoint Slides
-
-![image](https://user-images.githubusercontent.com/30275459/155821920-03043ce5-1407-4ac9-98ae-2ef6a866d756.png)
-
-# CoC Dashboard
-
-![image](https://user-images.githubusercontent.com/30275459/155885985-0d80e5ac-5e87-4925-9188-dae431edc8fe.png)
-
-
-# Link to Tableau Dashboard
->>>>>>> 603e361b3412ef0e878ead525638991932ba2b63
-[link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
-=======
-
->>>>>>> 4406528aaabe8a60d9a4d38667a1fc3a1ddc0a3d
+<br>[link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
