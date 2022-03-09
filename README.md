@@ -1,4 +1,4 @@
-# Class_Project: Exploring factors that lead to improved homelessness outcomes
+# Class_Project: Exploring factors that lead to improved unsheltered homelessness outcomes
 
 ## Presentation
 ![image](https://user-images.githubusercontent.com/90977689/152702817-a3d32ef1-dd51-44df-b740-ed84e744625b.png)
@@ -33,7 +33,7 @@ The hypothesis for this project is that we will be able to correlate certain fac
 ## Machine learning Model
 
 The overall strategy for our machine learning approach is to first establish if there are key features from the combined PIT/HIC datasets which are correlated with the outcome of unsheltered individuals.  We felt like random forest models would provide an initial visualization of feature importances.  If there were strong correlations with outcomes, we hoped there might be a slim chance that we would be able to build a predictive deep learning model to predict if changing the number of beds/units of certain types in a given city would be predicted to deliver an improvement in the unsheltered individuals target.  Since the CoC's represent areas of greatly differing populations, we anticipated that we would need some way to normalize across CoCs.  We envisioned that transforming our data into percents of total CoC population would be a reasonable way to do this.
-
+### Initial Modeling Attempts:
 ### Models based on data as a percentage of total CoC region population
 
 The first step was to connect the model to our SQL lite database to pull the data for all the years up through 2019:
@@ -113,6 +113,34 @@ Clearly this speaks to the noise within the data set.  PIT counts are not homoge
 
 ![image](https://user-images.githubusercontent.com/90977689/155900789-f44a31e1-c1df-4e8f-85cc-678b6bd4589b.png)
 
+### Final ML Solutions:
+![image](https://user-images.githubusercontent.com/90977689/156936700-78638593-a1ee-448a-89b6-c8450d71f931.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156946233-6c6b0d16-ddd8-454e-9d71-cbdef78090ca.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936825-063ae732-564b-48eb-8613-c6976264448a.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936840-a202786c-1df9-4424-9b56-f15b91a12697.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936861-5da2016d-29b2-4c6b-9015-033bb5ae6d8c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936882-3556c956-434e-4011-b8e0-223d71d3086c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936963-f7cd5112-2112-4676-b8d5-1790780e2805.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156936998-d3a76795-a0d6-4b78-8640-f4c42ead994c.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156937055-9cf4020e-9565-43fd-8251-8b2097a1d9ec.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156945761-fac20dc1-9391-4b2b-bb34-c4f5e8684d78.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156945782-437dc888-7b4d-4a10-8a09-7cf07c8d9cdc.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156945810-3f2d7333-e780-4ba8-af73-ce0adfa76ecf.png)
+
+![image](https://user-images.githubusercontent.com/90977689/156945891-9c023d5a-42b5-4d61-8489-742740721174.png)
+
+
 
 
 
@@ -137,10 +165,12 @@ If there is additional need to contextualize the data, we intend to incorporate 
 
 ## Comments
 
-## Communication Protocols
-- As a group we will be using Slack for a majority of our communication especially during class time and outside of it as well.
-- Meeting as a team outside of class hours will take place via Zoom.
-- We will be checking out Trello for potential project planning communication.
+
+## Link to Google Slides Presentation
+- [Draft Version of Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
 
 ## Link to Tableau Dashboard
+* The tools we used to create our dashboard was searching the web to find related datasets to upload to Tableau.   Once uploaded in Tableau Public, various bar graphs and maps were created to illustrate the overall homeless population and funding received to shelter those individuals.  
+* One of the many benefits of using Tableau Public is the program allows you to create interative data visualizations. 
+  
 [link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
