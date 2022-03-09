@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Class_Project: Exploring factors that lead to improved unsheltered homelessness outcomes
 
 ## Presentation
@@ -191,3 +192,6 @@ If there is additional need to contextualize the data, we intend to incorporate 
 # Link to Tableau Dashboard
 >>>>>>> 603e361b3412ef0e878ead525638991932ba2b63
 [link to dashboard](https://public.tableau.com/app/profile/michal.upchurch/viz/HICClassProject/TopHomelessPopulationbyCoC?publish=yes "link to dashboard")
+=======
+
+>>>>>>> 4406528aaabe8a60d9a4d38667a1fc3a1ddc0a3d
