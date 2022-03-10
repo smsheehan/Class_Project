@@ -113,7 +113,9 @@ Clearly this speaks to the noise within the data set.  PIT counts are not homoge
 
 ![image](https://user-images.githubusercontent.com/90977689/155900789-f44a31e1-c1df-4e8f-85cc-678b6bd4589b.png)
 
-### Final ML Solutions:
+## Final ML Solutions:
+(Code can be found in the "CheckPoint3_ML_Models" folder)
+
 ![image](https://user-images.githubusercontent.com/90977689/156936700-78638593-a1ee-448a-89b6-c8450d71f931.png)
 
 ![image](https://user-images.githubusercontent.com/90977689/156946233-6c6b0d16-ddd8-454e-9d71-cbdef78090ca.png)
@@ -161,13 +163,9 @@ The extracted dataframes from the HUD data will be stored utilizing a SQlite dat
 
 If there is additional need to contextualize the data, we intend to incorporate [metropolitan statistical area data](https://www.census.gov/programs-surveys/metro-micro/about.html) that can assist in providing some demographic and socioeconomic context to the areas supported by the specific CoCs of interest in our analysis.
 
-## Summary
-
-## Comments
-
 
 ## Link to Google Slides Presentation
-- [Google Slides](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
+- [Reducing Homelessness](https://docs.google.com/presentation/d/1XoV1bcYuccp9_o8XffJp5emKioTJpqc7fV_RFGwLNw8/edit?usp=sharing)
 
 ## Link to Tableau Dashboard
 * The tools we used to create our dashboard was searching the web to find related datasets to upload to Tableau.   Once uploaded in Tableau Public, various bar graphs and maps were created to illustrate the overall homeless population and funding received to shelter those individuals.  
