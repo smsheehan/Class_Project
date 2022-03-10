@@ -114,6 +114,8 @@ Clearly this speaks to the noise within the data set.  PIT counts are not homoge
 ![image](https://user-images.githubusercontent.com/90977689/155900789-f44a31e1-c1df-4e8f-85cc-678b6bd4589b.png)
 
 ### Final ML Solutions:
+(Code can be found in the "CheckPoint3_ML_Models" folder)
+
 ![image](https://user-images.githubusercontent.com/90977689/156936700-78638593-a1ee-448a-89b6-c8450d71f931.png)
 
 ![image](https://user-images.githubusercontent.com/90977689/156946233-6c6b0d16-ddd8-454e-9d71-cbdef78090ca.png)
